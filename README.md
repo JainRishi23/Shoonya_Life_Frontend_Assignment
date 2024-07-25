@@ -1,7 +1,3 @@
-Here’s a basic README file to include with your project. It contains instructions on how to set up and run the application:
-
----
-
 # Retreat Finder
 
 Retreat Finder is a React application that helps users find and filter wellness retreats based on various criteria such as type, date, location, price, and duration.
@@ -14,6 +10,7 @@ Retreat Finder is a React application that helps users find and filter wellness 
 - [Technologies](#technologies)
 - [Contributing](#contributing)
 - [License](#license)
+- [Live Website](#live-website)
 
 ## Installation
 
@@ -24,13 +21,11 @@ Retreat Finder is a React application that helps users find and filter wellness 
 ### Steps
 
 1. Clone the repository:
-
    ```sh
    git clone https://github.com/your-username/retreat-finder.git
    ```
 
 2. Navigate to the project directory:
-
    ```sh
    cd retreat-finder
    ```
@@ -45,7 +40,6 @@ Retreat Finder is a React application that helps users find and filter wellness 
 ### Running the Application
 
 1. Start the development server:
-
    ```sh
    npm start
    ```
@@ -55,7 +49,6 @@ Retreat Finder is a React application that helps users find and filter wellness 
 ### Building for Production
 
 1. Build the application for production:
-
    ```sh
    npm run build
    ```
@@ -89,6 +82,6 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+## Live Website
 
-Feel free to customize the README file as needed for your project. If you have any specific sections or information you want to include, let me know!
+You can access the live version of the application [here](https://jainrishi23.github.io/Shoonya_Life_Frontend_Assignment/).
