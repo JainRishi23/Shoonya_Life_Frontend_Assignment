@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shoonya_Life_Frontend_Assignment/static/css/main.218d7ebe.css",
+    "main.js": "/Shoonya_Life_Frontend_Assignment/static/js/main.b86da365.js",
+    "index.html": "/Shoonya_Life_Frontend_Assignment/index.html",
+    "main.218d7ebe.css.map": "/Shoonya_Life_Frontend_Assignment/static/css/main.218d7ebe.css.map",
+    "main.b86da365.js.map": "/Shoonya_Life_Frontend_Assignment/static/js/main.b86da365.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.218d7ebe.css",
+    "static/js/main.b86da365.js"
+  ]
+}
