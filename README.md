@@ -8,6 +8,7 @@ Retreat Finder is a React application that helps users find and filter wellness 
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies](#technologies)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Live Website](#live-website)
@@ -68,6 +69,17 @@ Retreat Finder is a React application that helps users find and filter wellness 
 - CSS
 - HTML
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/Screenshot-1)
+
+### Filter Options
+![Filter Options](screenshots/filter-options.png)
+
+### Retreat List
+![Retreat List](screenshots/retreat-list.png)
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -76,7 +88,7 @@ Contributions are welcome! Please follow these steps:
 2. Create a new branch: `git checkout -b feature/your-feature`.
 3. Make your changes and commit them: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature/your-feature`.
-5. Open a pull pull request.
+5. Open a pull request.
 
 ## License
 
@@ -85,3 +97,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Live Website
 
 You can access the live version of the application [here](https://jainrishi23.github.io/Shoonya_Life_Frontend_Assignment/).
+
+
+
