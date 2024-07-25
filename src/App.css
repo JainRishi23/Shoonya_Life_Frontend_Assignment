@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Forum&display=swap');
+
+body,
+html,
+#root,
+.App {
+  margin: 0;
+  padding: 0;
+  font-family: "Forum", serif;
+  background-color: #eeebeb48;
+
+}
+
+.header {
+  color: #474844;
+  background: #E4E4E2;
+  padding: 0.3rem;
+  text-align: center;
+  font-size: larger;
+}
+
+.footer {
+  color: #E4E4E2;
+  background: #474844;
+  padding: 0.3rem;
+  text-align: center;
+  font-size: large;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1593348196396-6092a8e2d640?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  color: #fff;
+  height: 400px;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1em 0;
+  padding: 0 1em;
+}
+
+.filter-group {
+  margin: 0.3em;
+}
+
+
+.filter-group select,
+.filter-group input {
+  width: 120px;
+  padding: 0.7em;
+  border-radius: 5px;
+  color: #474844cd;
+  background-color: white;
+  border: 1px solid #474844;
+}
+
+.filter-group select:hover,
+.filter-group input:hover {
+  color: #474844;
+  border: 1px solid #474844;
+
+}
+
+.filter-group ::placeholder {
+  color: #474844;
+}
+
+
+.filter-group button {
+  padding: 0.5em 1em;
+  color: #474844;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.filter-group button:hover {
+  color: #474844c1;
+}
+
+.filter-icon {
+  display: none;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.retreat-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.retreat {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  color: #474844;
+  border-radius: 5px;
+  width: calc(30% - 2em);
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.retreat h3 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.retreat p {
+  font-weight: 500;
+  font-size: large;
+}
+
+.retreat img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.retreat:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.no-retreats {
+  text-align: center;
+  width: 100%;
+  padding: 2em;
+}
+
+.pagination {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.pagination button {
+  margin: 0 0.5em;
+  padding: 0.5em 1em;
+  background-color: #474844bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #474844d7;
+}
+
+.pagination button:disabled {
+  background-color: #47484453;
+  cursor: not-allowed;
+}
+
+.pagination button.active {
+  background-color: #474844;
+  color: white;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 0.7em 1em;
+  background-color: white;
+  color: 474844;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #474844;
+  color: white;
+}
+
+.recommended-retreats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+  .retreat {
+    width: calc(45% - 2em);
+  }
+}
+
+@media (max-width: 768px) {
+  .retreat {
+    width: calc(100% - 2em);
+  }
+
+  .header {
+    padding: 0.1em;
+  }
+
+  .hero {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+  }
+
+  .filter {
+    display: none;
+  }
+
+  .filter-icon {
+    display: block;
+    top: 0.8em;
+    right: 1em;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 1000;
+
+  }
+
+  .filter-dropdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    right: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    z-index: 1000;
+  }
+
+  .filter-group select,
+  .filter-group input {
+    width: 90%;
+  }
+
+  .filter-group {
+    margin: 0.5em;
+  }
+
+  .filter-group button {
+    background-color: white;
+  }
+}
